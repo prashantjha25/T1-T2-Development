@@ -1,4 +1,5 @@
 node_modules/
 dist/
 *.config.js
-*.config.ts
+*.config.ts.DS_store
+.DS_store
