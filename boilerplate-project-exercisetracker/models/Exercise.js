@@ -30,7 +30,7 @@ class Exercise {
       params.push(to);
     }
 
-    query += ' ORDER BY date DESC';
+    query += ' ORDER BY date ASC';
 
     if (limit) {
       query += ' LIMIT ?';
